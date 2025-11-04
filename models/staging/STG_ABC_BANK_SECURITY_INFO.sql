@@ -37,4 +37,4 @@ hashed as (
         , '{{ run_started_at }}' as LOAD_TS_UTC
   FROM with_default_record
 )
-SELECT * FROM with_default_record
+SELECT * FROM hashed
